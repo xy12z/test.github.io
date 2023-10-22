@@ -1,0 +1,47 @@
+header img{
+    width: 32px;
+    height: 32px;
+}
+
+.header .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Ürünler {
+    display: flex;
+    justify-content: center;
+}
+
+.döner{
+    width: 64px;
+    height: 64px;
+}
+.pizza{
+    width: 64px;
+    height: 64px;
+}
+.hamburger{
+    width: 64px;
+    height: 64px;
+}
+.Ürünler div {
+    display: inline-block; /* Ürünleri yan yana hizalamak için */
+    width: 30%; /* Ürünlerin genişliğini ayarlayabilirsiniz */
+    text-align: center; /* İçerikleri yatayda ortalar */
+    border: 1px solid #ddd; /* İsteğe bağlı sınırlar ekleyebilirsiniz */
+    padding: 20px; /* İsteğe bağlı dolgu ekleyebilirsiniz */
+    margin: 5px; /* İsteğe bağlı kenar boşluğu ekleyebilirsiniz */
+}
+
+.container .Baslık h1 {
+    display: flex;
+    justify-content: center;
+}
